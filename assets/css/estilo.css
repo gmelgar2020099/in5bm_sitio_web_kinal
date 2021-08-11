@@ -1,0 +1,92 @@
+
+#menu ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+   }
+   
+#imagenEncabezado{
+	height: 120px;
+}
+   
+   #menu ul a {
+	display:block;
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+	font-weight:400;
+	font-size:15px;
+	padding:10px;
+	font-family:"Roboto"	;
+	text-transform:uppercase;
+	letter-spacing:1.5px;
+   }
+   
+   #menu ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+   }
+   
+   
+   #menu ul li:hover {
+	background:#be93c5d3;
+   }
+
+#menu ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#7bc7ccd7;
+	padding:0;
+   }
+   
+   
+   #menu ul ul li {
+	float:none;
+	width:150px
+   }
+   
+   
+   #menu ul ul a {
+	line-height:120%;
+	padding:10px 15px;
+   }
+   
+   
+   #menu ul li:hover > ul {
+	display:block;
+   }
+
+
+body{
+background: #BE93C5;  
+background: -webkit-linear-gradient(to right, #7bc7ccd7, #be93c5d3 url("../images/fondo1.jpg")); 
+background: linear-gradient(to right, #7bc7ccd7, #be93c5d3), url("../images/fondo1.jpg"); 
+
+
+}
+section{
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+}
+section h1{
+	padding-top: 40px;
+	position: relative;
+}
+section p{
+	align-items: center;
+	position: relative;
+	font-family: 'Roboto';
+	color: #000000;
+}
+#imagen1{
+	height: 120px;
+}
+
+
+
+
+
