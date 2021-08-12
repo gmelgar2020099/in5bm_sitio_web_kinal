@@ -73,18 +73,48 @@ section{
 	padding-top: 80px;
 }
 section h1{
-	padding-top: 40px;
+	color: #6DA6AD;
+	text-shadow: 5px 5px 5px #be93c5d3;
+	font-size: 100px;
 	position: relative;
 }
 section p{
+	color: #154a52;
+	text-shadow: 5px 5px 5px #be93c5d3;
+	font-size: 50px;
 	align-items: center;
 	position: relative;
 	font-family: 'Roboto';
-	color: #000000;
 }
-#imagen1{
+#imagenEncabezado{
+	opacity: 0.6;
+    filter: alpha(opacity=60);
 	height: 120px;
 }
+
+#imagenCentro{
+	height: 180px;
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+footer{
+	position: absolute;
+	text-align: right;
+	text-shadow: 5px 5px 5px #154a52;
+	font-family: "Arial";
+	text-align: left;
+	padding-top:0px;
+	color: white;
+	font-size: 10px;
+}
+footer p{
+	font-size: 15px;
+}
+
+
+
+
 
 
 
