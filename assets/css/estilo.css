@@ -94,8 +94,6 @@ section p{
 
 #imagenCentro{
 	height: 180px;
-	opacity: 0.4;
-    filter: alpha(opacity=40);
 }
 
 footer{
@@ -110,6 +108,7 @@ footer{
 }
 footer p{
 	font-size: 15px;
+	width: 100%;
 }
 
 

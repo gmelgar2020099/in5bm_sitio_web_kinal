@@ -61,8 +61,39 @@
 	display:block;
    }
 
-   section H1{
-	   text-align: center;
-	  padding-top: 300px;
-	   position: relative;
-   }
+   section{
+	width: 100%;
+	text-align: center;
+	padding-top: 300px;
+}
+
+section p{
+	font-size: 25px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	box-shadow: 10px 5px 10px #f11612c5;
+	border-radius: 10px 10px;
+	padding-top: 23px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 10px;
+	margin: auto;
+	text-align: left;
+	width: 80%;
+	background-color: #0098f727;
+	color: white;
+}
+
+#primer-imagen{
+	height: 150px;
+	top: 37%;
+	right:10%;
+	position: absolute;
+}
+
+#imagen-personal{
+	box-shadow: 0px 1px 5px #0098f771;
+	height: 200px;
+	right: 44%;
+	position: absolute;
+	top: 13%;
+}
