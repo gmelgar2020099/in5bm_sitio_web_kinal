@@ -66,7 +66,10 @@
 	text-align: center;
 	padding-top: 300px;
 }
-
+section h1{
+	text-shadow: 10px 8px 5px #f1161256;
+	font-size: 40px;
+}
 section p{
 	font-size: 25px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -77,23 +80,49 @@ section p{
 	padding-left: 5px;
 	padding-right: 10px;
 	margin: auto;
-	text-align: left;
+	text-align: justify;
 	width: 80%;
 	background-color: #0098f727;
 	color: white;
 }
 
 #primer-imagen{
-	height: 150px;
-	top: 37%;
-	right:10%;
+	height: 180px;
+	top: 110%;
+	right:6%;
 	position: absolute;
 }
 
+#segunda-imagen{
+	height: 180px;
+	top: 37%;
+	left:2%;
+	position: absolute;
+}
+
+#tercera-imagen{
+	height: 180px;
+	top: 165%;
+	right:6%;
+	position: absolute;
+}
 #imagen-personal{
 	box-shadow: 0px 1px 5px #0098f771;
 	height: 200px;
 	right: 44%;
 	position: absolute;
 	top: 13%;
+}
+
+footer p{
+	text-align: center;
+	width: 5%;
+	position: fixed;
+	bottom:0%;
+	background: #0099F7;
+	background: -webkit-linear-gradient(to right, #f11612c5, #0098f7bd);
+	background: linear-gradient(to right, #f11612c5, #0098f7bd);
+	color: white;
+	font-size:large;
+	padding: 20px;
 }

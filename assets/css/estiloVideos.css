@@ -1,0 +1,83 @@
+#menu ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+   }
+   
+   body{
+    background: #649173; 
+background: -webkit-linear-gradient(to right, #dbd5a4ab, #649173c7), url("../images/fondoVideos.jpg");; 
+background: linear-gradient(to right, #dbd5a4ab, #649173c7), url("../images/fondoVideos.jpg");
+
+
+    
+    }
+   #menu ul a {
+	display:block;
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+	font-weight:400;
+	font-size:15px;
+	padding:10px;
+	font-family:"Roboto"	;
+	text-transform:uppercase;
+	letter-spacing:1.5px;
+   }
+   
+   #menu ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+   }
+   
+   
+   #menu ul li:hover {
+	background:#dbd5a4ab;
+   }
+
+#menu ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#649173c7;
+	padding:0;
+   }
+   
+   
+   #menu ul ul li {
+	float:none;
+	width:150px
+   }
+   
+   
+   #menu ul ul a {
+	line-height:120%;
+	padding:10px 15px;
+   }
+   
+   
+   #menu ul li:hover > ul {
+	display:block;
+   }
+
+   section{
+    background-color: none;
+    padding-bottom: 40px;
+}
+
+section h1{
+    margin: auto;
+    text-shadow: 5px 5px 5px #dbd5a4fd;
+    text-align: center;
+	color: black;
+	font-size: 28px;
+	padding-bottom: 55px;
+    padding-top: 100px;
+}
+
+#videos-musicales{
+align-items: center;
+margin-left: 100%;
+}
